@@ -1,0 +1,33 @@
+.container-main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+
+
+}
+
+.image_container1{
+  padding: 50px;
+}
+.image_container1 > img{
+  padding: 20px;
+}
+
+#img01{
+  height: 320px;
+  width: 320px;
+
+}
+
+#img02{
+  height: 320px;
+  width: 320px;
+
+}
+
+#img03{
+  height: 320px;
+  width: 320px;
+
+}

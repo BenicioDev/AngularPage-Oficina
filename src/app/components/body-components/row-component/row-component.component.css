@@ -1,0 +1,24 @@
+.main__row{
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+}
+
+.main__row a{
+  font-size: 18px;
+  font-weight: bold;
+
+
+  margin-right: 35px;
+  background-color: blue;
+  padding: 15px;
+}
+
+.main__row a:hover{
+  background-color: rgb(208, 5, 5);
+  transition-property: color;
+}
+
+
+
+

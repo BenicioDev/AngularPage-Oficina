@@ -1,0 +1,85 @@
+.header{
+  overflow: hidden;
+  background-color: #FEFEFE;
+  padding: 25px 100px;
+}
+
+.header a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.header-img{
+  height: 120px;
+  width: 100px;
+
+  display: flex;
+  float: left;
+}
+
+
+.active_instagram{
+  padding: 2px;
+  background-color: rgb(254, 4, 129);
+  color: white;
+}
+.active_facebook{
+  padding: 2px;
+  background-color: blue;
+  color: white;
+}
+.active_wpp{
+  background-color: rgb(3, 201, 3);
+  color: white;
+}
+
+.header-right{
+  padding: 30px;
+  float: right;
+
+  background-color: #FEFEFE;
+}
+
+
+
+.sub-header{
+  display: flex;
+  justify-content: center;
+
+  padding: 10px;
+
+  background-color: rgba(128, 128, 128, 0.421);
+
+}
+
+.sub-header > h5{
+  margin-left: 1px;
+  margin-right: 3px;
+  background-color: rgba(128, 128, 128, 0);
+}
+
+.line1 hr{
+  color: blue;
+  background-color: blue;
+  padding: 0.8px;
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
