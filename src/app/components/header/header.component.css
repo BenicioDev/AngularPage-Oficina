@@ -1,7 +1,8 @@
 .header{
   overflow: hidden;
   background-color: #FEFEFE;
-  padding: 25px 100px;
+  padding: 10px 100px;
+
 }
 
 .header a {
@@ -19,29 +20,30 @@
   width: 100px;
 
   display: flex;
+
+
   float: left;
 }
 
 
 .active_instagram{
-  padding: 2px;
-  background-color: rgb(254, 4, 129);
-  color: white;
+  background-color: #e1306c;
+  border: solid 4px #e1306c;
 }
+
 .active_facebook{
-  padding: 2px;
   background-color: blue;
-  color: white;
+  border: solid 4px blue;
 }
 .active_wpp{
   background-color: rgb(3, 201, 3);
-  color: white;
+  border: solid 4px rgb(3, 201, 3);
 }
 
 .header-right{
-  padding: 30px;
+  margin: 2px;
+  padding: 20px;
   float: right;
-
   background-color: #FEFEFE;
 }
 
@@ -67,6 +69,17 @@
   color: blue;
   background-color: blue;
   padding: 0.8px;
+}
+
+.frase{
+  display: flex;
+  justify-content: flex-start;
+
+
+
+
+  font-size: 14px;
+
 }
 
 

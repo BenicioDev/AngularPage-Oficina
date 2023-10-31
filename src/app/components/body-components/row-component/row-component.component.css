@@ -1,7 +1,7 @@
 .main__row{
   display: flex;
   justify-content: center;
-  background-color: blue;
+  background-color: #EC3237;
 }
 
 .main__row a{
@@ -10,13 +10,14 @@
 
 
   margin-right: 35px;
-  background-color: blue;
+  background-color: #EC3237;
   padding: 15px;
 }
 
 .main__row a:hover{
-  background-color: rgb(208, 5, 5);
+  background-color: #FEFEFE;
   transition-property: color;
+  color: #EC3237;
 }
 
 
